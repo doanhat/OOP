@@ -1,0 +1,259 @@
+\hypertarget{class_e_m_a}{}\doxysection{E\+MA Class Reference}
+\label{class_e_m_a}\index{EMA@{EMA}}
+
+
+l\textquotesingle{}indicateur \mbox{\hyperlink{class_e_m_a}{E\+MA}} \+: Exponential Moving Average friend class \mbox{\hyperlink{class_m_a_c_d}{M\+A\+CD}}  
+
+
+
+
+{\ttfamily \#include $<$indicateur.\+h$>$}
+
+Inheritance diagram for E\+MA\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_e_m_a}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_e_m_a_af24fd8e33a2d869deb903b5e72c46c0f}{E\+MA}} (\mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} $\ast$\mbox{\hyperlink{class_indicator_a761ca233b61d422181f2dbb8f55a3718}{evolution\+Cours}}, unsigned int period=10)
+\begin{DoxyCompactList}\small\item\em constructeur \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_e_m_a_ad9e8f719c7fd5733e5c8e75cae2156d0}{$\sim$\+E\+MA}} ()
+\begin{DoxyCompactList}\small\item\em destructeur \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_e_m_a_abb3cf45d853e32ff47b5116b27f815f2}{generate\+Value}} ()
+\begin{DoxyCompactList}\small\item\em methode generate\+Value \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_e_m_a_aab403fab470b521f716664daafff8905}{set\+Evolution\+Cours}} (\mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} \&e)
+\begin{DoxyCompactList}\small\item\em methode set\+Evolution\+Cours \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_e_m_a_a2e965e1a1897fa9e932bfa9c12d70082}{set\+Period}} (unsigned int period)
+\begin{DoxyCompactList}\small\item\em methode set\+Period \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_e_m_a_a5662356b9c751b994a20cd9dcbd63d6b}{get\+Period}} () const
+\begin{DoxyCompactList}\small\item\em methode get\+Period \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_indicator_a2ef95d986eb57fbc4be9537084c50398}{iterator}} \mbox{\hyperlink{class_e_m_a_a56689a902b0e9a7ca59c6aebd466246f}{begin}} ()
+\item 
+\mbox{\hyperlink{class_indicator_a2ef95d986eb57fbc4be9537084c50398}{iterator}} \mbox{\hyperlink{class_e_m_a_a5a67768627bcbce5159d09738e8c193a}{end}} ()
+\item 
+\mbox{\hyperlink{class_indicator_ad8aaad2846437bd519dd539ab71a6f1c}{const\+\_\+iterator}} \mbox{\hyperlink{class_e_m_a_a36906ec870e37d2c1c5a6a37d948aeb6}{cbegin}} () const
+\item 
+\mbox{\hyperlink{class_indicator_ad8aaad2846437bd519dd539ab71a6f1c}{const\+\_\+iterator}} \mbox{\hyperlink{class_e_m_a_a3cf3e9c0f6d2854e15fe3d3014bee1e5}{cend}} () const
+\item 
+double \mbox{\hyperlink{class_e_m_a_a288d7dfcc65a1c12653693816e8ae372}{get\+Valuei}} (int i) const
+\begin{DoxyCompactList}\small\item\em methode get\+Valuesi \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+class \mbox{\hyperlink{class_e_m_a_a7bc09e24422065007069506d85b8fbbe}{M\+A\+CD}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Additional Inherited Members}
+
+
+\doxysubsection{Detailed Description}
+l\textquotesingle{}indicateur \mbox{\hyperlink{class_e_m_a}{E\+MA}} \+: Exponential Moving Average friend class \mbox{\hyperlink{class_m_a_c_d}{M\+A\+CD}} 
+
+Definition at line 105 of file indicateur.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_e_m_a_af24fd8e33a2d869deb903b5e72c46c0f}\label{class_e_m_a_af24fd8e33a2d869deb903b5e72c46c0f}} 
+\index{EMA@{EMA}!EMA@{EMA}}
+\index{EMA@{EMA}!EMA@{EMA}}
+\doxysubsubsection{\texorpdfstring{EMA()}{EMA()}}
+{\footnotesize\ttfamily E\+M\+A\+::\+E\+MA (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} $\ast$}]{evolution\+Cours,  }\item[{unsigned int}]{period = {\ttfamily 10} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+constructeur 
+
+
+\begin{DoxyParams}{Parameters}
+{\em evolution\+Cours} & \+:Evolution\+Cours$\ast$ \\
+\hline
+{\em unsigned} & int \+: period = 10 par default \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 117 of file indicateur.\+h.
+
+\mbox{\Hypertarget{class_e_m_a_ad9e8f719c7fd5733e5c8e75cae2156d0}\label{class_e_m_a_ad9e8f719c7fd5733e5c8e75cae2156d0}} 
+\index{EMA@{EMA}!````~EMA@{$\sim$EMA}}
+\index{````~EMA@{$\sim$EMA}!EMA@{EMA}}
+\doxysubsubsection{\texorpdfstring{$\sim$EMA()}{~EMA()}}
+{\footnotesize\ttfamily E\+M\+A\+::$\sim$\+E\+MA (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+destructeur 
+
+delete values 
+
+Definition at line 124 of file indicateur.\+h.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_e_m_a_a56689a902b0e9a7ca59c6aebd466246f}\label{class_e_m_a_a56689a902b0e9a7ca59c6aebd466246f}} 
+\index{EMA@{EMA}!begin@{begin}}
+\index{begin@{begin}!EMA@{EMA}}
+\doxysubsubsection{\texorpdfstring{begin()}{begin()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_indicator_a2ef95d986eb57fbc4be9537084c50398}{iterator}} E\+M\+A\+::begin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+iterator begin sur values 
+
+Definition at line 149 of file indicateur.\+h.
+
+\mbox{\Hypertarget{class_e_m_a_a36906ec870e37d2c1c5a6a37d948aeb6}\label{class_e_m_a_a36906ec870e37d2c1c5a6a37d948aeb6}} 
+\index{EMA@{EMA}!cbegin@{cbegin}}
+\index{cbegin@{cbegin}!EMA@{EMA}}
+\doxysubsubsection{\texorpdfstring{cbegin()}{cbegin()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_indicator_ad8aaad2846437bd519dd539ab71a6f1c}{const\+\_\+iterator}} E\+M\+A\+::cbegin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+const iterator begin sur values 
+
+Definition at line 151 of file indicateur.\+h.
+
+\mbox{\Hypertarget{class_e_m_a_a3cf3e9c0f6d2854e15fe3d3014bee1e5}\label{class_e_m_a_a3cf3e9c0f6d2854e15fe3d3014bee1e5}} 
+\index{EMA@{EMA}!cend@{cend}}
+\index{cend@{cend}!EMA@{EMA}}
+\doxysubsubsection{\texorpdfstring{cend()}{cend()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_indicator_ad8aaad2846437bd519dd539ab71a6f1c}{const\+\_\+iterator}} E\+M\+A\+::cend (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+const iterator sur values 
+
+Definition at line 152 of file indicateur.\+h.
+
+\mbox{\Hypertarget{class_e_m_a_a5a67768627bcbce5159d09738e8c193a}\label{class_e_m_a_a5a67768627bcbce5159d09738e8c193a}} 
+\index{EMA@{EMA}!end@{end}}
+\index{end@{end}!EMA@{EMA}}
+\doxysubsubsection{\texorpdfstring{end()}{end()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_indicator_a2ef95d986eb57fbc4be9537084c50398}{iterator}} E\+M\+A\+::end (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+iterator end sur values 
+
+Definition at line 150 of file indicateur.\+h.
+
+\mbox{\Hypertarget{class_e_m_a_abb3cf45d853e32ff47b5116b27f815f2}\label{class_e_m_a_abb3cf45d853e32ff47b5116b27f815f2}} 
+\index{EMA@{EMA}!generateValue@{generateValue}}
+\index{generateValue@{generateValue}!EMA@{EMA}}
+\doxysubsubsection{\texorpdfstring{generateValue()}{generateValue()}}
+{\footnotesize\ttfamily void E\+M\+A\+::generate\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+
+
+methode generate\+Value 
+
+\begin{DoxyReturn}{Returns}
+void \+: 
+\end{DoxyReturn}
+
+
+Implements \mbox{\hyperlink{class_indicator_ace3e0dc15d50829038edb7dde9f6af08}{Indicator}}.
+
+
+
+Definition at line 9 of file indicateur.\+cpp.
+
+\mbox{\Hypertarget{class_e_m_a_a5662356b9c751b994a20cd9dcbd63d6b}\label{class_e_m_a_a5662356b9c751b994a20cd9dcbd63d6b}} 
+\index{EMA@{EMA}!getPeriod@{getPeriod}}
+\index{getPeriod@{getPeriod}!EMA@{EMA}}
+\doxysubsubsection{\texorpdfstring{getPeriod()}{getPeriod()}}
+{\footnotesize\ttfamily unsigned int E\+M\+A\+::get\+Period (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+methode get\+Period 
+
+\begin{DoxyReturn}{Returns}
+period \+: unsigned int 
+\end{DoxyReturn}
+
+
+Definition at line 148 of file indicateur.\+h.
+
+\mbox{\Hypertarget{class_e_m_a_a288d7dfcc65a1c12653693816e8ae372}\label{class_e_m_a_a288d7dfcc65a1c12653693816e8ae372}} 
+\index{EMA@{EMA}!getValuei@{getValuei}}
+\index{getValuei@{getValuei}!EMA@{EMA}}
+\doxysubsubsection{\texorpdfstring{getValuei()}{getValuei()}}
+{\footnotesize\ttfamily double E\+M\+A\+::get\+Valuei (\begin{DoxyParamCaption}\item[{int}]{i }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+methode get\+Valuesi 
+
+
+\begin{DoxyParams}{Parameters}
+{\em i} & \+: int mthode const \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+values\mbox{[}i\mbox{]}.getvalue() 
+\end{DoxyReturn}
+
+
+Definition at line 159 of file indicateur.\+h.
+
+\mbox{\Hypertarget{class_e_m_a_aab403fab470b521f716664daafff8905}\label{class_e_m_a_aab403fab470b521f716664daafff8905}} 
+\index{EMA@{EMA}!setEvolutionCours@{setEvolutionCours}}
+\index{setEvolutionCours@{setEvolutionCours}!EMA@{EMA}}
+\doxysubsubsection{\texorpdfstring{setEvolutionCours()}{setEvolutionCours()}}
+{\footnotesize\ttfamily void E\+M\+A\+::set\+Evolution\+Cours (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} \&}]{e }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+methode set\+Evolution\+Cours 
+
+
+\begin{DoxyParams}{Parameters}
+{\em e} & \+: \mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}}\& \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void\+: 
+\end{DoxyReturn}
+
+
+Definition at line 137 of file indicateur.\+h.
+
+\mbox{\Hypertarget{class_e_m_a_a2e965e1a1897fa9e932bfa9c12d70082}\label{class_e_m_a_a2e965e1a1897fa9e932bfa9c12d70082}} 
+\index{EMA@{EMA}!setPeriod@{setPeriod}}
+\index{setPeriod@{setPeriod}!EMA@{EMA}}
+\doxysubsubsection{\texorpdfstring{setPeriod()}{setPeriod()}}
+{\footnotesize\ttfamily void E\+M\+A\+::set\+Period (\begin{DoxyParamCaption}\item[{unsigned int}]{period }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+methode set\+Period 
+
+
+\begin{DoxyParams}{Parameters}
+{\em period} & \+: unsigned int \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+void\+: 
+\end{DoxyReturn}
+
+
+Definition at line 143 of file indicateur.\+h.
+
+
+
+\doxysubsection{Friends And Related Function Documentation}
+\mbox{\Hypertarget{class_e_m_a_a7bc09e24422065007069506d85b8fbbe}\label{class_e_m_a_a7bc09e24422065007069506d85b8fbbe}} 
+\index{EMA@{EMA}!MACD@{MACD}}
+\index{MACD@{MACD}!EMA@{EMA}}
+\doxysubsubsection{\texorpdfstring{MACD}{MACD}}
+{\footnotesize\ttfamily friend class \mbox{\hyperlink{class_m_a_c_d}{M\+A\+CD}}\hspace{0.3cm}{\ttfamily [friend]}}
+
+
+
+Definition at line 106 of file indicateur.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/sillaw/\+Documents/gi02/lo21/projetlo21/\+Affichage\+\_\+des\+\_\+donnees/\+Code\+\_\+\+Affichage/\mbox{\hyperlink{indicateur_8h}{indicateur.\+h}}\item 
+/home/sillaw/\+Documents/gi02/lo21/projetlo21/\+Affichage\+\_\+des\+\_\+donnees/\+Code\+\_\+\+Affichage/\mbox{\hyperlink{indicateur_8cpp}{indicateur.\+cpp}}\end{DoxyCompactItemize}

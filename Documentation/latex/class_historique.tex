@@ -1,0 +1,208 @@
+\hypertarget{class_historique}{}\doxysection{Historique Class Reference}
+\label{class_historique}\index{Historique@{Historique}}
+
+
+{\ttfamily \#include $<$trading.\+h$>$}
+
+Inheritance diagram for Historique\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_historique}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{class_historique_acf6e313b855b6707bac4ed3cddce57d9}{iterator}} = std\+::vector$<$ \mbox{\hyperlink{class_transaction}{Transaction}} $\ast$ $>$\+::\mbox{\hyperlink{class_historique_acf6e313b855b6707bac4ed3cddce57d9}{iterator}}
+\item 
+using \mbox{\hyperlink{class_historique_ad1bbd82aad3c024c1e19942868efe0c2}{const\+\_\+iterator}} = std\+::vector$<$ \mbox{\hyperlink{class_transaction}{Transaction}} $\ast$ $>$\+::\mbox{\hyperlink{class_historique_ad1bbd82aad3c024c1e19942868efe0c2}{const\+\_\+iterator}}
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Slots}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_historique_a1b0fc8735a1adf86d6d9d726eebeb0e0}{update\+\_\+transaction}} (double montant, Q\+Date date)
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_historique_a76a320b0c66da94d5ea747f8eb02f9ec}{Historique}} ()
+\item 
+void \mbox{\hyperlink{class_historique_ac60dd468d67facfddf010a6327c3cd2c}{add\+Transaction}} (\mbox{\hyperlink{class_transaction}{Transaction}} $\ast$t)
+\begin{DoxyCompactList}\small\item\em methode add\+Transaction \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_historique_a7ac708338e531aaae3e65a2fc27cd7bb}{remove\+Last\+Transaction}} ()
+\item 
+unsigned int \mbox{\hyperlink{class_historique_aae39d5e3fea6bc6a8f4bb01e2ef7a3e3}{get\+Size}} () const
+\item 
+const std\+::vector$<$ \mbox{\hyperlink{class_transaction}{Transaction}} $\ast$ $>$ \& \mbox{\hyperlink{class_historique_a3d3ed9407a804804642fd9a97f3abfd9}{get\+Historique}} () const
+\item 
+void \mbox{\hyperlink{class_historique_a3f6186eeaabce6c13875428bbda03e0e}{set\+Historique}} (std\+::vector$<$ \mbox{\hyperlink{class_transaction}{Transaction}} $\ast$ $>$ h)
+\item 
+\mbox{\hyperlink{class_historique_acf6e313b855b6707bac4ed3cddce57d9}{iterator}} \mbox{\hyperlink{class_historique_abe26b711d605fc31ca0f40d547fabe23}{begin}} ()
+\item 
+\mbox{\hyperlink{class_historique_acf6e313b855b6707bac4ed3cddce57d9}{iterator}} \mbox{\hyperlink{class_historique_af4b20b4ee5b4cdfd24c34749ff45f91a}{end}} ()
+\item 
+\mbox{\hyperlink{class_historique_ad1bbd82aad3c024c1e19942868efe0c2}{const\+\_\+iterator}} \mbox{\hyperlink{class_historique_a90503a9ebfa3446f6cf2b2acfa4157ee}{cbegin}} () const
+\item 
+\mbox{\hyperlink{class_historique_ad1bbd82aad3c024c1e19942868efe0c2}{const\+\_\+iterator}} \mbox{\hyperlink{class_historique_a3460ff95b3f68148f19dbbcf6c6e553a}{cend}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 170 of file trading.\+h.
+
+
+
+\doxysubsection{Member Typedef Documentation}
+\mbox{\Hypertarget{class_historique_ad1bbd82aad3c024c1e19942868efe0c2}\label{class_historique_ad1bbd82aad3c024c1e19942868efe0c2}} 
+\index{Historique@{Historique}!const\_iterator@{const\_iterator}}
+\index{const\_iterator@{const\_iterator}!Historique@{Historique}}
+\doxysubsubsection{\texorpdfstring{const\_iterator}{const\_iterator}}
+{\footnotesize\ttfamily using \mbox{\hyperlink{class_historique_ad1bbd82aad3c024c1e19942868efe0c2}{Historique\+::const\+\_\+iterator}} =  std\+::vector$<$\mbox{\hyperlink{class_transaction}{Transaction}}$\ast$$>$\+::\mbox{\hyperlink{class_historique_ad1bbd82aad3c024c1e19942868efe0c2}{const\+\_\+iterator}}}
+
+
+
+Definition at line 188 of file trading.\+h.
+
+\mbox{\Hypertarget{class_historique_acf6e313b855b6707bac4ed3cddce57d9}\label{class_historique_acf6e313b855b6707bac4ed3cddce57d9}} 
+\index{Historique@{Historique}!iterator@{iterator}}
+\index{iterator@{iterator}!Historique@{Historique}}
+\doxysubsubsection{\texorpdfstring{iterator}{iterator}}
+{\footnotesize\ttfamily using \mbox{\hyperlink{class_historique_acf6e313b855b6707bac4ed3cddce57d9}{Historique\+::iterator}} =  std\+::vector$<$\mbox{\hyperlink{class_transaction}{Transaction}}$\ast$$>$\+::\mbox{\hyperlink{class_historique_acf6e313b855b6707bac4ed3cddce57d9}{iterator}}}
+
+
+
+Definition at line 187 of file trading.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_historique_a76a320b0c66da94d5ea747f8eb02f9ec}\label{class_historique_a76a320b0c66da94d5ea747f8eb02f9ec}} 
+\index{Historique@{Historique}!Historique@{Historique}}
+\index{Historique@{Historique}!Historique@{Historique}}
+\doxysubsubsection{\texorpdfstring{Historique()}{Historique()}}
+{\footnotesize\ttfamily Historique\+::\+Historique (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 176 of file trading.\+h.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_historique_ac60dd468d67facfddf010a6327c3cd2c}\label{class_historique_ac60dd468d67facfddf010a6327c3cd2c}} 
+\index{Historique@{Historique}!addTransaction@{addTransaction}}
+\index{addTransaction@{addTransaction}!Historique@{Historique}}
+\doxysubsubsection{\texorpdfstring{addTransaction()}{addTransaction()}}
+{\footnotesize\ttfamily void Historique\+::add\+Transaction (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_transaction}{Transaction}} $\ast$}]{t }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+methode add\+Transaction 
+
+La méthode fait l\textquotesingle{}ajout des transactions dans le vector tab 
+\begin{DoxyParams}{Parameters}
+{\em Objet} & de classe \mbox{\hyperlink{class_transaction}{Transaction}} \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 182 of file trading.\+h.
+
+\mbox{\Hypertarget{class_historique_abe26b711d605fc31ca0f40d547fabe23}\label{class_historique_abe26b711d605fc31ca0f40d547fabe23}} 
+\index{Historique@{Historique}!begin@{begin}}
+\index{begin@{begin}!Historique@{Historique}}
+\doxysubsubsection{\texorpdfstring{begin()}{begin()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_historique_acf6e313b855b6707bac4ed3cddce57d9}{iterator}} Historique\+::begin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 189 of file trading.\+h.
+
+\mbox{\Hypertarget{class_historique_a90503a9ebfa3446f6cf2b2acfa4157ee}\label{class_historique_a90503a9ebfa3446f6cf2b2acfa4157ee}} 
+\index{Historique@{Historique}!cbegin@{cbegin}}
+\index{cbegin@{cbegin}!Historique@{Historique}}
+\doxysubsubsection{\texorpdfstring{cbegin()}{cbegin()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_historique_ad1bbd82aad3c024c1e19942868efe0c2}{const\+\_\+iterator}} Historique\+::cbegin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 191 of file trading.\+h.
+
+\mbox{\Hypertarget{class_historique_a3460ff95b3f68148f19dbbcf6c6e553a}\label{class_historique_a3460ff95b3f68148f19dbbcf6c6e553a}} 
+\index{Historique@{Historique}!cend@{cend}}
+\index{cend@{cend}!Historique@{Historique}}
+\doxysubsubsection{\texorpdfstring{cend()}{cend()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_historique_ad1bbd82aad3c024c1e19942868efe0c2}{const\+\_\+iterator}} Historique\+::cend (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 192 of file trading.\+h.
+
+\mbox{\Hypertarget{class_historique_af4b20b4ee5b4cdfd24c34749ff45f91a}\label{class_historique_af4b20b4ee5b4cdfd24c34749ff45f91a}} 
+\index{Historique@{Historique}!end@{end}}
+\index{end@{end}!Historique@{Historique}}
+\doxysubsubsection{\texorpdfstring{end()}{end()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_historique_acf6e313b855b6707bac4ed3cddce57d9}{iterator}} Historique\+::end (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 190 of file trading.\+h.
+
+\mbox{\Hypertarget{class_historique_a3d3ed9407a804804642fd9a97f3abfd9}\label{class_historique_a3d3ed9407a804804642fd9a97f3abfd9}} 
+\index{Historique@{Historique}!getHistorique@{getHistorique}}
+\index{getHistorique@{getHistorique}!Historique@{Historique}}
+\doxysubsubsection{\texorpdfstring{getHistorique()}{getHistorique()}}
+{\footnotesize\ttfamily const std\+::vector$<$\mbox{\hyperlink{class_transaction}{Transaction}}$\ast$$>$\& Historique\+::get\+Historique (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 185 of file trading.\+h.
+
+\mbox{\Hypertarget{class_historique_aae39d5e3fea6bc6a8f4bb01e2ef7a3e3}\label{class_historique_aae39d5e3fea6bc6a8f4bb01e2ef7a3e3}} 
+\index{Historique@{Historique}!getSize@{getSize}}
+\index{getSize@{getSize}!Historique@{Historique}}
+\doxysubsubsection{\texorpdfstring{getSize()}{getSize()}}
+{\footnotesize\ttfamily unsigned int Historique\+::get\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 184 of file trading.\+h.
+
+\mbox{\Hypertarget{class_historique_a7ac708338e531aaae3e65a2fc27cd7bb}\label{class_historique_a7ac708338e531aaae3e65a2fc27cd7bb}} 
+\index{Historique@{Historique}!removeLastTransaction@{removeLastTransaction}}
+\index{removeLastTransaction@{removeLastTransaction}!Historique@{Historique}}
+\doxysubsubsection{\texorpdfstring{removeLastTransaction()}{removeLastTransaction()}}
+{\footnotesize\ttfamily void Historique\+::remove\+Last\+Transaction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 183 of file trading.\+h.
+
+\mbox{\Hypertarget{class_historique_a3f6186eeaabce6c13875428bbda03e0e}\label{class_historique_a3f6186eeaabce6c13875428bbda03e0e}} 
+\index{Historique@{Historique}!setHistorique@{setHistorique}}
+\index{setHistorique@{setHistorique}!Historique@{Historique}}
+\doxysubsubsection{\texorpdfstring{setHistorique()}{setHistorique()}}
+{\footnotesize\ttfamily void Historique\+::set\+Historique (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \mbox{\hyperlink{class_transaction}{Transaction}} $\ast$ $>$}]{h }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 186 of file trading.\+h.
+
+\mbox{\Hypertarget{class_historique_a1b0fc8735a1adf86d6d9d726eebeb0e0}\label{class_historique_a1b0fc8735a1adf86d6d9d726eebeb0e0}} 
+\index{Historique@{Historique}!update\_transaction@{update\_transaction}}
+\index{update\_transaction@{update\_transaction}!Historique@{Historique}}
+\doxysubsubsection{\texorpdfstring{update\_transaction}{update\_transaction}}
+{\footnotesize\ttfamily void Historique\+::update\+\_\+transaction (\begin{DoxyParamCaption}\item[{double}]{montant,  }\item[{Q\+Date}]{date }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [slot]}}
+
+
+
+Definition at line 152 of file trading.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/sillaw/\+Documents/gi02/lo21/projetlo21/\+Affichage\+\_\+des\+\_\+donnees/\+Code\+\_\+\+Affichage/\mbox{\hyperlink{trading_8h}{trading.\+h}}\item 
+/home/sillaw/\+Documents/gi02/lo21/projetlo21/\+Affichage\+\_\+des\+\_\+donnees/\+Code\+\_\+\+Affichage/\mbox{\hyperlink{trading_8cpp}{trading.\+cpp}}\end{DoxyCompactItemize}

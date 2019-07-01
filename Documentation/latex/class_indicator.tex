@@ -1,0 +1,225 @@
+\hypertarget{class_indicator}{}\doxysection{Indicator Class Reference}
+\label{class_indicator}\index{Indicator@{Indicator}}
+
+
+classe abstraite pour les indicateurs  
+
+
+
+
+{\ttfamily \#include $<$indicateur.\+h$>$}
+
+Inheritance diagram for Indicator\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_indicator}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{class_indicator_a2ef95d986eb57fbc4be9537084c50398}{iterator}} = \mbox{\hyperlink{class_value_indicator}{Value\+Indicator}} $\ast$
+\item 
+using \mbox{\hyperlink{class_indicator_ad8aaad2846437bd519dd539ab71a6f1c}{const\+\_\+iterator}} = const \mbox{\hyperlink{class_value_indicator}{Value\+Indicator}} $\ast$
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+virtual void \mbox{\hyperlink{class_indicator_ace3e0dc15d50829038edb7dde9f6af08}{generate\+Value}} ()=0
+\begin{DoxyCompactList}\small\item\em méthode virtual pure generate\+Indice \end{DoxyCompactList}\item 
+unsigned int \mbox{\hyperlink{class_indicator_a45ce40ca217e1281ecac624007c50bc8}{get\+Nb\+Indicator}} () const
+\begin{DoxyCompactList}\small\item\em méthode get\+Nb\+Indicator \end{DoxyCompactList}\item 
+Q\+String \mbox{\hyperlink{class_indicator_a6cd4bec07fd91c2c129346db4c47ee36}{get\+Nom}} () const
+\begin{DoxyCompactList}\small\item\em méthode get\+Nom \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} $\ast$ \mbox{\hyperlink{class_indicator_aaebfed69fcec0df51c4182f7b6dc7952}{get\+Evolution}} () const
+\begin{DoxyCompactList}\small\item\em méthode gêtvolution \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_indicator_a084a22ae4bd94f16b2c3fd0bdb9b387a}{Indicator}} (\mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} $\ast$\mbox{\hyperlink{class_indicator_a761ca233b61d422181f2dbb8f55a3718}{evolution\+Cours}}, Q\+String \mbox{\hyperlink{class_indicator_aa958892d98c77fde3b229db97cdc4c32}{nom}}=\char`\"{}Autre Indicateur\char`\"{})
+\begin{DoxyCompactList}\small\item\em constructeur \end{DoxyCompactList}\item 
+virtual \mbox{\hyperlink{class_indicator_a275f9cfc6171f04935466466e97dffd2}{$\sim$\+Indicator}} ()=default
+\begin{DoxyCompactList}\small\item\em destructor virtual \end{DoxyCompactList}\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} $\ast$ \mbox{\hyperlink{class_indicator_a761ca233b61d422181f2dbb8f55a3718}{evolution\+Cours}}
+\item 
+Q\+String \mbox{\hyperlink{class_indicator_aa958892d98c77fde3b229db97cdc4c32}{nom}}
+\item 
+unsigned int \mbox{\hyperlink{class_indicator_a2975824cd666fde0a2f8c22b98acf390}{nb\+Indicator}}
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+classe abstraite pour les indicateurs 
+
+Definition at line 59 of file indicateur.\+h.
+
+
+
+\doxysubsection{Member Typedef Documentation}
+\mbox{\Hypertarget{class_indicator_ad8aaad2846437bd519dd539ab71a6f1c}\label{class_indicator_ad8aaad2846437bd519dd539ab71a6f1c}} 
+\index{Indicator@{Indicator}!const\_iterator@{const\_iterator}}
+\index{const\_iterator@{const\_iterator}!Indicator@{Indicator}}
+\doxysubsubsection{\texorpdfstring{const\_iterator}{const\_iterator}}
+{\footnotesize\ttfamily using \mbox{\hyperlink{class_indicator_ad8aaad2846437bd519dd539ab71a6f1c}{Indicator\+::const\+\_\+iterator}} =  const \mbox{\hyperlink{class_value_indicator}{Value\+Indicator}}$\ast$}
+
+const\+\_\+iterator correspond à const Value\+Indicator$\ast$ 
+
+Definition at line 77 of file indicateur.\+h.
+
+\mbox{\Hypertarget{class_indicator_a2ef95d986eb57fbc4be9537084c50398}\label{class_indicator_a2ef95d986eb57fbc4be9537084c50398}} 
+\index{Indicator@{Indicator}!iterator@{iterator}}
+\index{iterator@{iterator}!Indicator@{Indicator}}
+\doxysubsubsection{\texorpdfstring{iterator}{iterator}}
+{\footnotesize\ttfamily using \mbox{\hyperlink{class_indicator_a2ef95d986eb57fbc4be9537084c50398}{Indicator\+::iterator}} =  \mbox{\hyperlink{class_value_indicator}{Value\+Indicator}}$\ast$}
+
+iterator correspond à Value\+Indicator$\ast$ 
+
+Definition at line 76 of file indicateur.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_indicator_a084a22ae4bd94f16b2c3fd0bdb9b387a}\label{class_indicator_a084a22ae4bd94f16b2c3fd0bdb9b387a}} 
+\index{Indicator@{Indicator}!Indicator@{Indicator}}
+\index{Indicator@{Indicator}!Indicator@{Indicator}}
+\doxysubsubsection{\texorpdfstring{Indicator()}{Indicator()}}
+{\footnotesize\ttfamily Indicator\+::\+Indicator (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} $\ast$}]{evolution\+Cours,  }\item[{Q\+String}]{nom = {\ttfamily \char`\"{}Autre~Indicateur\char`\"{}} }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+constructeur 
+
+
+\begin{DoxyParams}{Parameters}
+{\em evolution\+Cours} & \+:Evolution\+Cours$\ast$ \\
+\hline
+{\em nom} & \+:Q\+String = \char`\"{}\+Autre indicateur\char`\"{} par default \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 3 of file indicateur.\+cpp.
+
+\mbox{\Hypertarget{class_indicator_a275f9cfc6171f04935466466e97dffd2}\label{class_indicator_a275f9cfc6171f04935466466e97dffd2}} 
+\index{Indicator@{Indicator}!````~Indicator@{$\sim$Indicator}}
+\index{````~Indicator@{$\sim$Indicator}!Indicator@{Indicator}}
+\doxysubsubsection{\texorpdfstring{$\sim$Indicator()}{~Indicator()}}
+{\footnotesize\ttfamily virtual Indicator\+::$\sim$\+Indicator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [virtual]}, {\ttfamily [default]}}
+
+
+
+destructor virtual 
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_indicator_ace3e0dc15d50829038edb7dde9f6af08}\label{class_indicator_ace3e0dc15d50829038edb7dde9f6af08}} 
+\index{Indicator@{Indicator}!generateValue@{generateValue}}
+\index{generateValue@{generateValue}!Indicator@{Indicator}}
+\doxysubsubsection{\texorpdfstring{generateValue()}{generateValue()}}
+{\footnotesize\ttfamily virtual void Indicator\+::generate\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [pure virtual]}}
+
+
+
+méthode virtual pure generate\+Indice 
+
+\begin{DoxyReturn}{Returns}
+void \+: 
+\end{DoxyReturn}
+
+
+Implemented in \mbox{\hyperlink{class_m_a_c_d_ad1d12273ee17bddc9e624ac74d0d43ee}{M\+A\+CD}}, \mbox{\hyperlink{class_r_s_i_aefa5428ba5a39fdc2cc2410cc726c4f3}{R\+SI}}, and \mbox{\hyperlink{class_e_m_a_abb3cf45d853e32ff47b5116b27f815f2}{E\+MA}}.
+
+\mbox{\Hypertarget{class_indicator_aaebfed69fcec0df51c4182f7b6dc7952}\label{class_indicator_aaebfed69fcec0df51c4182f7b6dc7952}} 
+\index{Indicator@{Indicator}!getEvolution@{getEvolution}}
+\index{getEvolution@{getEvolution}!Indicator@{Indicator}}
+\doxysubsubsection{\texorpdfstring{getEvolution()}{getEvolution()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}}$\ast$ Indicator\+::get\+Evolution (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+méthode gêtvolution 
+
+\begin{DoxyReturn}{Returns}
+Evolution\+Cours$\ast$ \+: evolution\+Cours 
+\end{DoxyReturn}
+
+
+Definition at line 97 of file indicateur.\+h.
+
+\mbox{\Hypertarget{class_indicator_a45ce40ca217e1281ecac624007c50bc8}\label{class_indicator_a45ce40ca217e1281ecac624007c50bc8}} 
+\index{Indicator@{Indicator}!getNbIndicator@{getNbIndicator}}
+\index{getNbIndicator@{getNbIndicator}!Indicator@{Indicator}}
+\doxysubsubsection{\texorpdfstring{getNbIndicator()}{getNbIndicator()}}
+{\footnotesize\ttfamily unsigned int Indicator\+::get\+Nb\+Indicator (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+méthode get\+Nb\+Indicator 
+
+\begin{DoxyReturn}{Returns}
+unsigned int \+: nb\+Indicator 
+\end{DoxyReturn}
+
+
+Definition at line 87 of file indicateur.\+h.
+
+\mbox{\Hypertarget{class_indicator_a6cd4bec07fd91c2c129346db4c47ee36}\label{class_indicator_a6cd4bec07fd91c2c129346db4c47ee36}} 
+\index{Indicator@{Indicator}!getNom@{getNom}}
+\index{getNom@{getNom}!Indicator@{Indicator}}
+\doxysubsubsection{\texorpdfstring{getNom()}{getNom()}}
+{\footnotesize\ttfamily Q\+String Indicator\+::get\+Nom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+méthode get\+Nom 
+
+\begin{DoxyReturn}{Returns}
+Q\+String \+: nom 
+\end{DoxyReturn}
+
+
+Definition at line 92 of file indicateur.\+h.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_indicator_a761ca233b61d422181f2dbb8f55a3718}\label{class_indicator_a761ca233b61d422181f2dbb8f55a3718}} 
+\index{Indicator@{Indicator}!evolutionCours@{evolutionCours}}
+\index{evolutionCours@{evolutionCours}!Indicator@{Indicator}}
+\doxysubsubsection{\texorpdfstring{evolutionCours}{evolutionCours}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}}$\ast$ Indicator\+::evolution\+Cours\hspace{0.3cm}{\ttfamily [protected]}}
+
+la valeur du pointeur sur \mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} 
+
+Definition at line 71 of file indicateur.\+h.
+
+\mbox{\Hypertarget{class_indicator_a2975824cd666fde0a2f8c22b98acf390}\label{class_indicator_a2975824cd666fde0a2f8c22b98acf390}} 
+\index{Indicator@{Indicator}!nbIndicator@{nbIndicator}}
+\index{nbIndicator@{nbIndicator}!Indicator@{Indicator}}
+\doxysubsubsection{\texorpdfstring{nbIndicator}{nbIndicator}}
+{\footnotesize\ttfamily unsigned int Indicator\+::nb\+Indicator\hspace{0.3cm}{\ttfamily [protected]}}
+
+nombre d\textquotesingle{}éléments dans le tableau values 
+
+Definition at line 73 of file indicateur.\+h.
+
+\mbox{\Hypertarget{class_indicator_aa958892d98c77fde3b229db97cdc4c32}\label{class_indicator_aa958892d98c77fde3b229db97cdc4c32}} 
+\index{Indicator@{Indicator}!nom@{nom}}
+\index{nom@{nom}!Indicator@{Indicator}}
+\doxysubsubsection{\texorpdfstring{nom}{nom}}
+{\footnotesize\ttfamily Q\+String Indicator\+::nom\hspace{0.3cm}{\ttfamily [protected]}}
+
+le nom de l\textquotesingle{}indicateur 
+
+Definition at line 72 of file indicateur.\+h.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/sillaw/\+Documents/gi02/lo21/projetlo21/\+Affichage\+\_\+des\+\_\+donnees/\+Code\+\_\+\+Affichage/\mbox{\hyperlink{indicateur_8h}{indicateur.\+h}}\item 
+/home/sillaw/\+Documents/gi02/lo21/projetlo21/\+Affichage\+\_\+des\+\_\+donnees/\+Code\+\_\+\+Affichage/\mbox{\hyperlink{indicateur_8cpp}{indicateur.\+cpp}}\end{DoxyCompactItemize}

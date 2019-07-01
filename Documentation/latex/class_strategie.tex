@@ -1,0 +1,214 @@
+\hypertarget{class_strategie}{}\doxysection{Strategie Class Reference}
+\label{class_strategie}\index{Strategie@{Strategie}}
+
+
+{\ttfamily \#include $<$strategie.\+h$>$}
+
+Inheritance diagram for Strategie\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_strategie}
+\end{center}
+\end{figure}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_strategie_a94548cefb2e1fcbd7b602a48c606f72c}{set\+Indicateur}} (\mbox{\hyperlink{class_indicator}{Indicator}} $\ast$i)
+\item 
+void \mbox{\hyperlink{class_strategie_a2ce70c2b39a9585e63259f736a4deb53}{setdepart}} (Q\+Date d)
+\item 
+void \mbox{\hyperlink{class_strategie_a90dfe8d5acf659dcddb217038e0b44ad}{setfin}} (Q\+Date f)
+\item 
+const Q\+String \& \mbox{\hyperlink{class_strategie_a67c8466719ffa288568f05a8fa14872c}{get\+Nom}} () const
+\item 
+virtual const Q\+Date \& \mbox{\hyperlink{class_strategie_aa795f892e37589d95e3aa7f433e1aa9c}{getdepart}} () const
+\item 
+virtual const Q\+Date \& \mbox{\hyperlink{class_strategie_aba6909d77e2de1765faa86f1622a5d09}{getfin}} () const
+\item 
+virtual \mbox{\hyperlink{class_strategie_a44ea6051b392ca0490c1b91ad37fe0bb}{$\sim$\+Strategie}} ()=default
+\item 
+virtual double \mbox{\hyperlink{class_strategie_a7f120cb831b756f4cc4d418d8e10e56f}{trading}} (\mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} $\ast$)
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_strategie_ad17056b240eb3c02ca269c79eca02041}{Strategie}} (Q\+String \mbox{\hyperlink{class_strategie_a84f893a718d2e9a0b0a15741af29a929}{nom}})
+\item 
+\mbox{\hyperlink{class_strategie_a2220e5b4147ded2d5d3364d3212c9937}{Strategie}} (\mbox{\hyperlink{class_strategie}{Strategie}} $\ast$str)=delete
+\end{DoxyCompactItemize}
+\doxysubsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Q\+Date \mbox{\hyperlink{class_strategie_a7c448344096e6bd31cca6e0640aab700}{depart}}
+\item 
+Q\+Date \mbox{\hyperlink{class_strategie_a123ca63377b7e56fb4074c2d22582573}{fin}}
+\item 
+Q\+String \mbox{\hyperlink{class_strategie_a84f893a718d2e9a0b0a15741af29a929}{nom}} = \char`\"{}U\+N\+K\+N\+O\+WN S\+T\+R\+A\+T\+E\+GY\char`\"{}
+\item 
+\mbox{\hyperlink{class_indicator}{Indicator}} $\ast$ \mbox{\hyperlink{class_strategie_a5fa3defc68d854737fc09e196b0973e7}{indi}} = nullptr
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 9 of file strategie.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_strategie_ad17056b240eb3c02ca269c79eca02041}\label{class_strategie_ad17056b240eb3c02ca269c79eca02041}} 
+\index{Strategie@{Strategie}!Strategie@{Strategie}}
+\index{Strategie@{Strategie}!Strategie@{Strategie}}
+\doxysubsubsection{\texorpdfstring{Strategie()}{Strategie()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Strategie\+::\+Strategie (\begin{DoxyParamCaption}\item[{Q\+String}]{nom }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [protected]}}
+
+
+
+Definition at line 15 of file strategie.\+h.
+
+\mbox{\Hypertarget{class_strategie_a2220e5b4147ded2d5d3364d3212c9937}\label{class_strategie_a2220e5b4147ded2d5d3364d3212c9937}} 
+\index{Strategie@{Strategie}!Strategie@{Strategie}}
+\index{Strategie@{Strategie}!Strategie@{Strategie}}
+\doxysubsubsection{\texorpdfstring{Strategie()}{Strategie()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Strategie\+::\+Strategie (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_strategie}{Strategie}} $\ast$}]{str }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [protected]}, {\ttfamily [delete]}}
+
+\mbox{\Hypertarget{class_strategie_a44ea6051b392ca0490c1b91ad37fe0bb}\label{class_strategie_a44ea6051b392ca0490c1b91ad37fe0bb}} 
+\index{Strategie@{Strategie}!````~Strategie@{$\sim$Strategie}}
+\index{````~Strategie@{$\sim$Strategie}!Strategie@{Strategie}}
+\doxysubsubsection{\texorpdfstring{$\sim$Strategie()}{~Strategie()}}
+{\footnotesize\ttfamily virtual Strategie\+::$\sim$\+Strategie (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}, {\ttfamily [default]}}
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_strategie_aa795f892e37589d95e3aa7f433e1aa9c}\label{class_strategie_aa795f892e37589d95e3aa7f433e1aa9c}} 
+\index{Strategie@{Strategie}!getdepart@{getdepart}}
+\index{getdepart@{getdepart}!Strategie@{Strategie}}
+\doxysubsubsection{\texorpdfstring{getdepart()}{getdepart()}}
+{\footnotesize\ttfamily virtual const Q\+Date\& Strategie\+::getdepart (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_m_a_c_d___strategie_af88d519cfe3dd1a1a877773ea33c586f}{M\+A\+C\+D\+\_\+\+Strategie}}, \mbox{\hyperlink{class_r_s_i___strategie_a69aa67dd24c4e35d49d4ec8d307275c0}{R\+S\+I\+\_\+\+Strategie}}, and \mbox{\hyperlink{class_e_m_a___convergence_a40d3147e3281b3be18565044f20c0c32}{E\+M\+A\+\_\+\+Convergence}}.
+
+
+
+Definition at line 22 of file strategie.\+h.
+
+\mbox{\Hypertarget{class_strategie_aba6909d77e2de1765faa86f1622a5d09}\label{class_strategie_aba6909d77e2de1765faa86f1622a5d09}} 
+\index{Strategie@{Strategie}!getfin@{getfin}}
+\index{getfin@{getfin}!Strategie@{Strategie}}
+\doxysubsubsection{\texorpdfstring{getfin()}{getfin()}}
+{\footnotesize\ttfamily virtual const Q\+Date\& Strategie\+::getfin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_m_a_c_d___strategie_a6351e36925ed78b9c87f94b17725a861}{M\+A\+C\+D\+\_\+\+Strategie}}, \mbox{\hyperlink{class_r_s_i___strategie_aa78a84b6cae3eab7c62721753d4f0623}{R\+S\+I\+\_\+\+Strategie}}, and \mbox{\hyperlink{class_e_m_a___convergence_ac900f00be3479c60616b077bfe29dba7}{E\+M\+A\+\_\+\+Convergence}}.
+
+
+
+Definition at line 23 of file strategie.\+h.
+
+\mbox{\Hypertarget{class_strategie_a67c8466719ffa288568f05a8fa14872c}\label{class_strategie_a67c8466719ffa288568f05a8fa14872c}} 
+\index{Strategie@{Strategie}!getNom@{getNom}}
+\index{getNom@{getNom}!Strategie@{Strategie}}
+\doxysubsubsection{\texorpdfstring{getNom()}{getNom()}}
+{\footnotesize\ttfamily const Q\+String\& Strategie\+::get\+Nom (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 21 of file strategie.\+h.
+
+\mbox{\Hypertarget{class_strategie_a2ce70c2b39a9585e63259f736a4deb53}\label{class_strategie_a2ce70c2b39a9585e63259f736a4deb53}} 
+\index{Strategie@{Strategie}!setdepart@{setdepart}}
+\index{setdepart@{setdepart}!Strategie@{Strategie}}
+\doxysubsubsection{\texorpdfstring{setdepart()}{setdepart()}}
+{\footnotesize\ttfamily void Strategie\+::setdepart (\begin{DoxyParamCaption}\item[{Q\+Date}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 19 of file strategie.\+h.
+
+\mbox{\Hypertarget{class_strategie_a90dfe8d5acf659dcddb217038e0b44ad}\label{class_strategie_a90dfe8d5acf659dcddb217038e0b44ad}} 
+\index{Strategie@{Strategie}!setfin@{setfin}}
+\index{setfin@{setfin}!Strategie@{Strategie}}
+\doxysubsubsection{\texorpdfstring{setfin()}{setfin()}}
+{\footnotesize\ttfamily void Strategie\+::setfin (\begin{DoxyParamCaption}\item[{Q\+Date}]{f }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 20 of file strategie.\+h.
+
+\mbox{\Hypertarget{class_strategie_a94548cefb2e1fcbd7b602a48c606f72c}\label{class_strategie_a94548cefb2e1fcbd7b602a48c606f72c}} 
+\index{Strategie@{Strategie}!setIndicateur@{setIndicateur}}
+\index{setIndicateur@{setIndicateur}!Strategie@{Strategie}}
+\doxysubsubsection{\texorpdfstring{setIndicateur()}{setIndicateur()}}
+{\footnotesize\ttfamily void Strategie\+::set\+Indicateur (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_indicator}{Indicator}} $\ast$}]{i }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 18 of file strategie.\+h.
+
+\mbox{\Hypertarget{class_strategie_a7f120cb831b756f4cc4d418d8e10e56f}\label{class_strategie_a7f120cb831b756f4cc4d418d8e10e56f}} 
+\index{Strategie@{Strategie}!trading@{trading}}
+\index{trading@{trading}!Strategie@{Strategie}}
+\doxysubsubsection{\texorpdfstring{trading()}{trading()}}
+{\footnotesize\ttfamily virtual double Strategie\+::trading (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} $\ast$}]{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}, {\ttfamily [virtual]}}
+
+
+
+Reimplemented in \mbox{\hyperlink{class_m_a_c_d___strategie_afec119c62eb050ee53766a23f5cf1cb7}{M\+A\+C\+D\+\_\+\+Strategie}}, \mbox{\hyperlink{class_r_s_i___strategie_a42b3022482d569b793d75504c11dd967}{R\+S\+I\+\_\+\+Strategie}}, and \mbox{\hyperlink{class_e_m_a___convergence_a8c4008b3cc9240cfed740d80a9aa3857}{E\+M\+A\+\_\+\+Convergence}}.
+
+
+
+Definition at line 27 of file strategie.\+h.
+
+
+
+\doxysubsection{Member Data Documentation}
+\mbox{\Hypertarget{class_strategie_a7c448344096e6bd31cca6e0640aab700}\label{class_strategie_a7c448344096e6bd31cca6e0640aab700}} 
+\index{Strategie@{Strategie}!depart@{depart}}
+\index{depart@{depart}!Strategie@{Strategie}}
+\doxysubsubsection{\texorpdfstring{depart}{depart}}
+{\footnotesize\ttfamily Q\+Date Strategie\+::depart\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 11 of file strategie.\+h.
+
+\mbox{\Hypertarget{class_strategie_a123ca63377b7e56fb4074c2d22582573}\label{class_strategie_a123ca63377b7e56fb4074c2d22582573}} 
+\index{Strategie@{Strategie}!fin@{fin}}
+\index{fin@{fin}!Strategie@{Strategie}}
+\doxysubsubsection{\texorpdfstring{fin}{fin}}
+{\footnotesize\ttfamily Q\+Date Strategie\+::fin\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 12 of file strategie.\+h.
+
+\mbox{\Hypertarget{class_strategie_a5fa3defc68d854737fc09e196b0973e7}\label{class_strategie_a5fa3defc68d854737fc09e196b0973e7}} 
+\index{Strategie@{Strategie}!indi@{indi}}
+\index{indi@{indi}!Strategie@{Strategie}}
+\doxysubsubsection{\texorpdfstring{indi}{indi}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_indicator}{Indicator}}$\ast$ Strategie\+::indi = nullptr\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 14 of file strategie.\+h.
+
+\mbox{\Hypertarget{class_strategie_a84f893a718d2e9a0b0a15741af29a929}\label{class_strategie_a84f893a718d2e9a0b0a15741af29a929}} 
+\index{Strategie@{Strategie}!nom@{nom}}
+\index{nom@{nom}!Strategie@{Strategie}}
+\doxysubsubsection{\texorpdfstring{nom}{nom}}
+{\footnotesize\ttfamily Q\+String Strategie\+::nom = \char`\"{}U\+N\+K\+N\+O\+WN S\+T\+R\+A\+T\+E\+GY\char`\"{}\hspace{0.3cm}{\ttfamily [protected]}}
+
+
+
+Definition at line 13 of file strategie.\+h.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/sillaw/\+Documents/gi02/lo21/projetlo21/\+Affichage\+\_\+des\+\_\+donnees/\+Code\+\_\+\+Affichage/\mbox{\hyperlink{strategie_8h}{strategie.\+h}}\end{DoxyCompactItemize}

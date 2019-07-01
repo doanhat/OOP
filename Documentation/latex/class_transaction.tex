@@ -1,0 +1,159 @@
+\hypertarget{class_transaction}{}\doxysection{Transaction Class Reference}
+\label{class_transaction}\index{Transaction@{Transaction}}
+
+
+{\ttfamily \#include $<$trading.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_transaction_aa1bc2e9065c4ae4877494ca1deda434e}{set\+Value}} (double s)
+\item 
+bool \mbox{\hyperlink{class_transaction_a52291220ab213338052550739c057cfb}{update\+Balance}} (\mbox{\hyperlink{class_devise}{Devise}} $\ast$, \mbox{\hyperlink{class_devise}{Devise}} $\ast$, \mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} $\ast$, double)
+\begin{DoxyCompactList}\small\item\em methode update\+Balance \end{DoxyCompactList}\item 
+\mbox{\hyperlink{class_transaction_a98a7bd3260aef07def8dbf0b814bf94b}{Transaction}} (double value, bool t, Q\+Date d)
+\item 
+\mbox{\hyperlink{class_transaction_a362b0d2524d0c799165190517192dca9}{$\sim$\+Transaction}} ()
+\item 
+\mbox{\hyperlink{class_devise}{Devise}} \& \mbox{\hyperlink{class_transaction_a4aae10dd0775a181815420f615a67f0b}{get\+Base}} (\mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} $\ast$e) const
+\item 
+\mbox{\hyperlink{class_devise}{Devise}} \& \mbox{\hyperlink{class_transaction_a02ebee23ed43bb40834a7a1e327d64a9}{get\+Contre\+Partie}} (\mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} $\ast$e) const
+\item 
+double \mbox{\hyperlink{class_transaction_a1a2441f11a445c14246071f4584bc3d6}{get\+Close\+Price}} (\mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} $\ast$e) const
+\item 
+double \mbox{\hyperlink{class_transaction_af8e114443374eee638eb0cd1b33c7fbd}{get\+Sum}} () const
+\item 
+bool \mbox{\hyperlink{class_transaction_aa6d7e5bf4ac7210ea647edb1f4470333}{get\+Type}} () const
+\item 
+Q\+Date \mbox{\hyperlink{class_transaction_ab956b931484bdd9423191e58d8169d37}{get\+Date}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 128 of file trading.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_transaction_a98a7bd3260aef07def8dbf0b814bf94b}\label{class_transaction_a98a7bd3260aef07def8dbf0b814bf94b}} 
+\index{Transaction@{Transaction}!Transaction@{Transaction}}
+\index{Transaction@{Transaction}!Transaction@{Transaction}}
+\doxysubsubsection{\texorpdfstring{Transaction()}{Transaction()}}
+{\footnotesize\ttfamily Transaction\+::\+Transaction (\begin{DoxyParamCaption}\item[{double}]{value,  }\item[{bool}]{t,  }\item[{Q\+Date}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 145 of file trading.\+h.
+
+\mbox{\Hypertarget{class_transaction_a362b0d2524d0c799165190517192dca9}\label{class_transaction_a362b0d2524d0c799165190517192dca9}} 
+\index{Transaction@{Transaction}!````~Transaction@{$\sim$Transaction}}
+\index{````~Transaction@{$\sim$Transaction}!Transaction@{Transaction}}
+\doxysubsubsection{\texorpdfstring{$\sim$Transaction()}{~Transaction()}}
+{\footnotesize\ttfamily Transaction\+::$\sim$\+Transaction (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 146 of file trading.\+h.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_transaction_a4aae10dd0775a181815420f615a67f0b}\label{class_transaction_a4aae10dd0775a181815420f615a67f0b}} 
+\index{Transaction@{Transaction}!getBase@{getBase}}
+\index{getBase@{getBase}!Transaction@{Transaction}}
+\doxysubsubsection{\texorpdfstring{getBase()}{getBase()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_devise}{Devise}} \& Transaction\+::get\+Base (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} $\ast$}]{e }\end{DoxyParamCaption}) const}
+
+
+
+Definition at line 138 of file trading.\+cpp.
+
+\mbox{\Hypertarget{class_transaction_a1a2441f11a445c14246071f4584bc3d6}\label{class_transaction_a1a2441f11a445c14246071f4584bc3d6}} 
+\index{Transaction@{Transaction}!getClosePrice@{getClosePrice}}
+\index{getClosePrice@{getClosePrice}!Transaction@{Transaction}}
+\doxysubsubsection{\texorpdfstring{getClosePrice()}{getClosePrice()}}
+{\footnotesize\ttfamily double Transaction\+::get\+Close\+Price (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} $\ast$}]{e }\end{DoxyParamCaption}) const}
+
+
+
+Definition at line 146 of file trading.\+cpp.
+
+\mbox{\Hypertarget{class_transaction_a02ebee23ed43bb40834a7a1e327d64a9}\label{class_transaction_a02ebee23ed43bb40834a7a1e327d64a9}} 
+\index{Transaction@{Transaction}!getContrePartie@{getContrePartie}}
+\index{getContrePartie@{getContrePartie}!Transaction@{Transaction}}
+\doxysubsubsection{\texorpdfstring{getContrePartie()}{getContrePartie()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_devise}{Devise}} \& Transaction\+::get\+Contre\+Partie (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} $\ast$}]{e }\end{DoxyParamCaption}) const}
+
+
+
+Definition at line 142 of file trading.\+cpp.
+
+\mbox{\Hypertarget{class_transaction_ab956b931484bdd9423191e58d8169d37}\label{class_transaction_ab956b931484bdd9423191e58d8169d37}} 
+\index{Transaction@{Transaction}!getDate@{getDate}}
+\index{getDate@{getDate}!Transaction@{Transaction}}
+\doxysubsubsection{\texorpdfstring{getDate()}{getDate()}}
+{\footnotesize\ttfamily Q\+Date Transaction\+::get\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 152 of file trading.\+h.
+
+\mbox{\Hypertarget{class_transaction_af8e114443374eee638eb0cd1b33c7fbd}\label{class_transaction_af8e114443374eee638eb0cd1b33c7fbd}} 
+\index{Transaction@{Transaction}!getSum@{getSum}}
+\index{getSum@{getSum}!Transaction@{Transaction}}
+\doxysubsubsection{\texorpdfstring{getSum()}{getSum()}}
+{\footnotesize\ttfamily double Transaction\+::get\+Sum (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 150 of file trading.\+h.
+
+\mbox{\Hypertarget{class_transaction_aa6d7e5bf4ac7210ea647edb1f4470333}\label{class_transaction_aa6d7e5bf4ac7210ea647edb1f4470333}} 
+\index{Transaction@{Transaction}!getType@{getType}}
+\index{getType@{getType}!Transaction@{Transaction}}
+\doxysubsubsection{\texorpdfstring{getType()}{getType()}}
+{\footnotesize\ttfamily bool Transaction\+::get\+Type (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 151 of file trading.\+h.
+
+\mbox{\Hypertarget{class_transaction_aa1bc2e9065c4ae4877494ca1deda434e}\label{class_transaction_aa1bc2e9065c4ae4877494ca1deda434e}} 
+\index{Transaction@{Transaction}!setValue@{setValue}}
+\index{setValue@{setValue}!Transaction@{Transaction}}
+\doxysubsubsection{\texorpdfstring{setValue()}{setValue()}}
+{\footnotesize\ttfamily void Transaction\+::set\+Value (\begin{DoxyParamCaption}\item[{double}]{s }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 134 of file trading.\+h.
+
+\mbox{\Hypertarget{class_transaction_a52291220ab213338052550739c057cfb}\label{class_transaction_a52291220ab213338052550739c057cfb}} 
+\index{Transaction@{Transaction}!updateBalance@{updateBalance}}
+\index{updateBalance@{updateBalance}!Transaction@{Transaction}}
+\doxysubsubsection{\texorpdfstring{updateBalance()}{updateBalance()}}
+{\footnotesize\ttfamily bool Transaction\+::update\+Balance (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{class_devise}{Devise}} $\ast$}]{,  }\item[{\mbox{\hyperlink{class_devise}{Devise}} $\ast$}]{,  }\item[{\mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} $\ast$}]{,  }\item[{double}]{ }\end{DoxyParamCaption})}
+
+
+
+methode update\+Balance 
+
+La méthode fait le control si l\textquotesingle{}opération c\textquotesingle{}est valide ou pas et puis fait les mises en jpour des montant de devises de base et de contrepartie. 
+\begin{DoxyParams}{Parameters}
+{\em devise} & de base \\
+\hline
+{\em devise} & de Contrepartie \\
+\hline
+{\em pointer} & d\textquotesingle{}\mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} \\
+\hline
+{\em l\textquotesingle{}interet} & de brokers \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/sillaw/\+Documents/gi02/lo21/projetlo21/\+Affichage\+\_\+des\+\_\+donnees/\+Code\+\_\+\+Affichage/\mbox{\hyperlink{trading_8h}{trading.\+h}}\item 
+/home/sillaw/\+Documents/gi02/lo21/projetlo21/\+Affichage\+\_\+des\+\_\+donnees/\+Code\+\_\+\+Affichage/\mbox{\hyperlink{trading_8cpp}{trading.\+cpp}}\end{DoxyCompactItemize}

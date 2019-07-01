@@ -1,0 +1,226 @@
+\hypertarget{class_evolution_cours}{}\doxysection{Evolution\+Cours Class Reference}
+\label{class_evolution_cours}\index{EvolutionCours@{EvolutionCours}}
+
+
+{\ttfamily \#include $<$trading.\+h$>$}
+
+\doxysubsection*{Public Types}
+\begin{DoxyCompactItemize}
+\item 
+using \mbox{\hyperlink{class_evolution_cours_a9b9e9eb8eb12c2939d3693ca188cd302}{iterator}} = \mbox{\hyperlink{class_cours_o_h_l_c_v}{Cours\+O\+H\+L\+CV}} $\ast$
+\item 
+using \mbox{\hyperlink{class_evolution_cours_ace29a257fde29946b7000003584ba47b}{const\+\_\+iterator}} = const \mbox{\hyperlink{class_cours_o_h_l_c_v}{Cours\+O\+H\+L\+CV}} $\ast$
+\end{DoxyCompactItemize}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{class_evolution_cours_a8b23f1df9eb1edbe79879f9741009763}{Evolution\+Cours}} (const \mbox{\hyperlink{class_paire_devises}{Paire\+Devises}} \&p)
+\item 
+\mbox{\hyperlink{class_evolution_cours_a9a1ded34c894ce16952f018ea63fbe94}{Evolution\+Cours}} (const \mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} \&e)
+\item 
+\mbox{\hyperlink{class_evolution_cours_a30626b48902c98a83aa579ab4d91fed0}{$\sim$\+Evolution\+Cours}} ()
+\item 
+\mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} \& \mbox{\hyperlink{class_evolution_cours_aca9b5125ecbac69e15a68a75eb00adaa}{operator=}} (const \mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} \&e)
+\item 
+void \mbox{\hyperlink{class_evolution_cours_a066ad82894d3ed727c912c990edde5f8}{add\+Cours}} (double o, double h, double l, double c, double v, const Q\+Date \&d)
+\item 
+unsigned int \mbox{\hyperlink{class_evolution_cours_aa8abf863c4a64622bf46d201b5aa691e}{get\+Nb\+Cours}} () const
+\item 
+const \mbox{\hyperlink{class_paire_devises}{Paire\+Devises}} \& \mbox{\hyperlink{class_evolution_cours_a8ef59cffc428acd73bb0d8631a1b54e3}{get\+Paire\+Devises}} () const
+\item 
+const \mbox{\hyperlink{class_cours_o_h_l_c_v}{Cours\+O\+H\+L\+CV}} \& \mbox{\hyperlink{class_evolution_cours_affdd6f8a67475ef235c7e9c99d0a9743}{get\+Cours}} (const Q\+Date \&d) const
+\item 
+\mbox{\hyperlink{class_evolution_cours_a9b9e9eb8eb12c2939d3693ca188cd302}{iterator}} \mbox{\hyperlink{class_evolution_cours_a236d4fdf4c774ff6eac892131e36c8a2}{begin}} ()
+\item 
+\mbox{\hyperlink{class_evolution_cours_a9b9e9eb8eb12c2939d3693ca188cd302}{iterator}} \mbox{\hyperlink{class_evolution_cours_aca20c7a08667b3e14b03380957b973ea}{end}} ()
+\item 
+\mbox{\hyperlink{class_evolution_cours_ace29a257fde29946b7000003584ba47b}{const\+\_\+iterator}} \mbox{\hyperlink{class_evolution_cours_a4b33f40376ebd6edbd344cdc4d3ce603}{begin}} () const
+\item 
+\mbox{\hyperlink{class_evolution_cours_ace29a257fde29946b7000003584ba47b}{const\+\_\+iterator}} \mbox{\hyperlink{class_evolution_cours_a5697afd0e1fb36d71157714277ffaf57}{end}} () const
+\item 
+\mbox{\hyperlink{class_evolution_cours_ace29a257fde29946b7000003584ba47b}{const\+\_\+iterator}} \mbox{\hyperlink{class_evolution_cours_afcc75c25b16bdd9803daa5c7cec6c604}{cbegin}} () const
+\item 
+\mbox{\hyperlink{class_evolution_cours_ace29a257fde29946b7000003584ba47b}{const\+\_\+iterator}} \mbox{\hyperlink{class_evolution_cours_a19ca09190665079e5a0a419d799d5dca}{cend}} () const
+\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+
+
+Definition at line 71 of file trading.\+h.
+
+
+
+\doxysubsection{Member Typedef Documentation}
+\mbox{\Hypertarget{class_evolution_cours_ace29a257fde29946b7000003584ba47b}\label{class_evolution_cours_ace29a257fde29946b7000003584ba47b}} 
+\index{EvolutionCours@{EvolutionCours}!const\_iterator@{const\_iterator}}
+\index{const\_iterator@{const\_iterator}!EvolutionCours@{EvolutionCours}}
+\doxysubsubsection{\texorpdfstring{const\_iterator}{const\_iterator}}
+{\footnotesize\ttfamily using \mbox{\hyperlink{class_evolution_cours_ace29a257fde29946b7000003584ba47b}{Evolution\+Cours\+::const\+\_\+iterator}} =  const \mbox{\hyperlink{class_cours_o_h_l_c_v}{Cours\+O\+H\+L\+CV}}$\ast$}
+
+
+
+Definition at line 92 of file trading.\+h.
+
+\mbox{\Hypertarget{class_evolution_cours_a9b9e9eb8eb12c2939d3693ca188cd302}\label{class_evolution_cours_a9b9e9eb8eb12c2939d3693ca188cd302}} 
+\index{EvolutionCours@{EvolutionCours}!iterator@{iterator}}
+\index{iterator@{iterator}!EvolutionCours@{EvolutionCours}}
+\doxysubsubsection{\texorpdfstring{iterator}{iterator}}
+{\footnotesize\ttfamily using \mbox{\hyperlink{class_evolution_cours_a9b9e9eb8eb12c2939d3693ca188cd302}{Evolution\+Cours\+::iterator}} =  \mbox{\hyperlink{class_cours_o_h_l_c_v}{Cours\+O\+H\+L\+CV}}$\ast$}
+
+
+
+Definition at line 88 of file trading.\+h.
+
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{class_evolution_cours_a8b23f1df9eb1edbe79879f9741009763}\label{class_evolution_cours_a8b23f1df9eb1edbe79879f9741009763}} 
+\index{EvolutionCours@{EvolutionCours}!EvolutionCours@{EvolutionCours}}
+\index{EvolutionCours@{EvolutionCours}!EvolutionCours@{EvolutionCours}}
+\doxysubsubsection{\texorpdfstring{EvolutionCours()}{EvolutionCours()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Evolution\+Cours\+::\+Evolution\+Cours (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_paire_devises}{Paire\+Devises}} \&}]{p }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 77 of file trading.\+h.
+
+\mbox{\Hypertarget{class_evolution_cours_a9a1ded34c894ce16952f018ea63fbe94}\label{class_evolution_cours_a9a1ded34c894ce16952f018ea63fbe94}} 
+\index{EvolutionCours@{EvolutionCours}!EvolutionCours@{EvolutionCours}}
+\index{EvolutionCours@{EvolutionCours}!EvolutionCours@{EvolutionCours}}
+\doxysubsubsection{\texorpdfstring{EvolutionCours()}{EvolutionCours()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Evolution\+Cours\+::\+Evolution\+Cours (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} \&}]{e }\end{DoxyParamCaption})}
+
+
+
+Definition at line 54 of file trading.\+cpp.
+
+\mbox{\Hypertarget{class_evolution_cours_a30626b48902c98a83aa579ab4d91fed0}\label{class_evolution_cours_a30626b48902c98a83aa579ab4d91fed0}} 
+\index{EvolutionCours@{EvolutionCours}!````~EvolutionCours@{$\sim$EvolutionCours}}
+\index{````~EvolutionCours@{$\sim$EvolutionCours}!EvolutionCours@{EvolutionCours}}
+\doxysubsubsection{\texorpdfstring{$\sim$EvolutionCours()}{~EvolutionCours()}}
+{\footnotesize\ttfamily Evolution\+Cours\+::$\sim$\+Evolution\+Cours (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Definition at line 50 of file trading.\+cpp.
+
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{class_evolution_cours_a066ad82894d3ed727c912c990edde5f8}\label{class_evolution_cours_a066ad82894d3ed727c912c990edde5f8}} 
+\index{EvolutionCours@{EvolutionCours}!addCours@{addCours}}
+\index{addCours@{addCours}!EvolutionCours@{EvolutionCours}}
+\doxysubsubsection{\texorpdfstring{addCours()}{addCours()}}
+{\footnotesize\ttfamily void Evolution\+Cours\+::add\+Cours (\begin{DoxyParamCaption}\item[{double}]{o,  }\item[{double}]{h,  }\item[{double}]{l,  }\item[{double}]{c,  }\item[{double}]{v,  }\item[{const Q\+Date \&}]{d }\end{DoxyParamCaption})}
+
+
+
+Definition at line 34 of file trading.\+cpp.
+
+\mbox{\Hypertarget{class_evolution_cours_a236d4fdf4c774ff6eac892131e36c8a2}\label{class_evolution_cours_a236d4fdf4c774ff6eac892131e36c8a2}} 
+\index{EvolutionCours@{EvolutionCours}!begin@{begin}}
+\index{begin@{begin}!EvolutionCours@{EvolutionCours}}
+\doxysubsubsection{\texorpdfstring{begin()}{begin()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_evolution_cours_a9b9e9eb8eb12c2939d3693ca188cd302}{iterator}} Evolution\+Cours\+::begin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 89 of file trading.\+h.
+
+\mbox{\Hypertarget{class_evolution_cours_a4b33f40376ebd6edbd344cdc4d3ce603}\label{class_evolution_cours_a4b33f40376ebd6edbd344cdc4d3ce603}} 
+\index{EvolutionCours@{EvolutionCours}!begin@{begin}}
+\index{begin@{begin}!EvolutionCours@{EvolutionCours}}
+\doxysubsubsection{\texorpdfstring{begin()}{begin()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_evolution_cours_ace29a257fde29946b7000003584ba47b}{const\+\_\+iterator}} Evolution\+Cours\+::begin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 93 of file trading.\+h.
+
+\mbox{\Hypertarget{class_evolution_cours_afcc75c25b16bdd9803daa5c7cec6c604}\label{class_evolution_cours_afcc75c25b16bdd9803daa5c7cec6c604}} 
+\index{EvolutionCours@{EvolutionCours}!cbegin@{cbegin}}
+\index{cbegin@{cbegin}!EvolutionCours@{EvolutionCours}}
+\doxysubsubsection{\texorpdfstring{cbegin()}{cbegin()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_evolution_cours_ace29a257fde29946b7000003584ba47b}{const\+\_\+iterator}} Evolution\+Cours\+::cbegin (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 95 of file trading.\+h.
+
+\mbox{\Hypertarget{class_evolution_cours_a19ca09190665079e5a0a419d799d5dca}\label{class_evolution_cours_a19ca09190665079e5a0a419d799d5dca}} 
+\index{EvolutionCours@{EvolutionCours}!cend@{cend}}
+\index{cend@{cend}!EvolutionCours@{EvolutionCours}}
+\doxysubsubsection{\texorpdfstring{cend()}{cend()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_evolution_cours_ace29a257fde29946b7000003584ba47b}{const\+\_\+iterator}} Evolution\+Cours\+::cend (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 96 of file trading.\+h.
+
+\mbox{\Hypertarget{class_evolution_cours_aca20c7a08667b3e14b03380957b973ea}\label{class_evolution_cours_aca20c7a08667b3e14b03380957b973ea}} 
+\index{EvolutionCours@{EvolutionCours}!end@{end}}
+\index{end@{end}!EvolutionCours@{EvolutionCours}}
+\doxysubsubsection{\texorpdfstring{end()}{end()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_evolution_cours_a9b9e9eb8eb12c2939d3693ca188cd302}{iterator}} Evolution\+Cours\+::end (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 90 of file trading.\+h.
+
+\mbox{\Hypertarget{class_evolution_cours_a5697afd0e1fb36d71157714277ffaf57}\label{class_evolution_cours_a5697afd0e1fb36d71157714277ffaf57}} 
+\index{EvolutionCours@{EvolutionCours}!end@{end}}
+\index{end@{end}!EvolutionCours@{EvolutionCours}}
+\doxysubsubsection{\texorpdfstring{end()}{end()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_evolution_cours_ace29a257fde29946b7000003584ba47b}{const\+\_\+iterator}} Evolution\+Cours\+::end (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 94 of file trading.\+h.
+
+\mbox{\Hypertarget{class_evolution_cours_affdd6f8a67475ef235c7e9c99d0a9743}\label{class_evolution_cours_affdd6f8a67475ef235c7e9c99d0a9743}} 
+\index{EvolutionCours@{EvolutionCours}!getCours@{getCours}}
+\index{getCours@{getCours}!EvolutionCours@{EvolutionCours}}
+\doxysubsubsection{\texorpdfstring{getCours()}{getCours()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_cours_o_h_l_c_v}{Cours\+O\+H\+L\+CV}} \& Evolution\+Cours\+::get\+Cours (\begin{DoxyParamCaption}\item[{const Q\+Date \&}]{d }\end{DoxyParamCaption}) const}
+
+
+
+Definition at line 73 of file trading.\+cpp.
+
+\mbox{\Hypertarget{class_evolution_cours_aa8abf863c4a64622bf46d201b5aa691e}\label{class_evolution_cours_aa8abf863c4a64622bf46d201b5aa691e}} 
+\index{EvolutionCours@{EvolutionCours}!getNbCours@{getNbCours}}
+\index{getNbCours@{getNbCours}!EvolutionCours@{EvolutionCours}}
+\doxysubsubsection{\texorpdfstring{getNbCours()}{getNbCours()}}
+{\footnotesize\ttfamily unsigned int Evolution\+Cours\+::get\+Nb\+Cours (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 83 of file trading.\+h.
+
+\mbox{\Hypertarget{class_evolution_cours_a8ef59cffc428acd73bb0d8631a1b54e3}\label{class_evolution_cours_a8ef59cffc428acd73bb0d8631a1b54e3}} 
+\index{EvolutionCours@{EvolutionCours}!getPaireDevises@{getPaireDevises}}
+\index{getPaireDevises@{getPaireDevises}!EvolutionCours@{EvolutionCours}}
+\doxysubsubsection{\texorpdfstring{getPaireDevises()}{getPaireDevises()}}
+{\footnotesize\ttfamily const \mbox{\hyperlink{class_paire_devises}{Paire\+Devises}}\& Evolution\+Cours\+::get\+Paire\+Devises (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Definition at line 85 of file trading.\+h.
+
+\mbox{\Hypertarget{class_evolution_cours_aca9b5125ecbac69e15a68a75eb00adaa}\label{class_evolution_cours_aca9b5125ecbac69e15a68a75eb00adaa}} 
+\index{EvolutionCours@{EvolutionCours}!operator=@{operator=}}
+\index{operator=@{operator=}!EvolutionCours@{EvolutionCours}}
+\doxysubsubsection{\texorpdfstring{operator=()}{operator=()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} \& Evolution\+Cours\+::operator= (\begin{DoxyParamCaption}\item[{const \mbox{\hyperlink{class_evolution_cours}{Evolution\+Cours}} \&}]{e }\end{DoxyParamCaption})}
+
+
+
+Definition at line 63 of file trading.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+/home/sillaw/\+Documents/gi02/lo21/projetlo21/\+Affichage\+\_\+des\+\_\+donnees/\+Code\+\_\+\+Affichage/\mbox{\hyperlink{trading_8h}{trading.\+h}}\item 
+/home/sillaw/\+Documents/gi02/lo21/projetlo21/\+Affichage\+\_\+des\+\_\+donnees/\+Code\+\_\+\+Affichage/\mbox{\hyperlink{trading_8cpp}{trading.\+cpp}}\end{DoxyCompactItemize}
